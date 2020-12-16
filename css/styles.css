@@ -503,6 +503,11 @@ mark,
   display: block;
   font-size: 80%;
   color: #6c757d;
+  
+}
+.blockquote-footer a{
+  color:;
+  
 }
 
 .blockquote-footer::before {
@@ -2679,6 +2684,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #ea7303;
   border-color: #ea7303;
+  
 }
 
 .btn-primary:hover {
@@ -2925,6 +2931,7 @@ fieldset:disabled a.btn {
   color: #212529;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
+  margin: 20px 0 40px 0;
 }
 
 .btn-light:hover {
@@ -10951,7 +10958,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 #mainNav {
@@ -11048,27 +11055,32 @@ header #h1-container {
   background-color: #ea7303;
   border-radius: 10px;
   width: 80%;
-  margin-bottom: 30px;
+  opacity: 0.85;
 }
 
 header #p-container {
-  margin-bottom: -30px;
+  background-color: #ea7303;
+
 }
 
 header.masthead h1 {
   font-size: 4.5rem;
-  color: #fff
+  color: #fff;
+  margin-top: 40px;;
 }
 
 header.masthead p {
+
   font-size: 2rem;
+  color: #ffff;
+  padding-bottom: -50px
   ;
 }
 
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
-    min-height: 40rem;
+    min-height: 100rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
   }
@@ -11080,6 +11092,8 @@ header.masthead p {
   header.masthead h1 {
     font-size: 3rem;
   }
+
+  
 }
 
 @media (min-width: 1200px) {
@@ -11161,7 +11175,7 @@ header.masthead p {
 
 .how-section1 {
   margin-top: -15%;
-  padding-top: 10%;
+  background-color: #e5e5e4;
 }
 
 .how-section1 h4 {
@@ -11169,11 +11183,13 @@ header.masthead p {
   font-weight: bold;
   font-size: 40px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .how-section1 .subheading {
   color: #3931af;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .how-section1 .row {
